@@ -1,0 +1,8 @@
+@import '../fonts/font.css';
+@import './vars.css';
+@import './blocks/page.css';
+@import './blocks/header.css';
+@import './blocks/main.css';
+@import './blocks/promo.css';
+@import './elements/scheme-block.css';
+@import './elements/popup.css';
