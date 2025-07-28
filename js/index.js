@@ -75,3 +75,16 @@ document.addEventListener('DOMContentLoaded', function () {
   }, { passive: false });
 });
 
+// АНИМАЦИЯ ХЭДЕРА при прокрутке страницы
+
+// const header = document.querySelector('.header');
+
+// window.addEventListener('scroll', function () {
+//   const scrollTop = window.scrollY;
+
+//   if (scrollTop > 25) {
+//     header.classList.add('scrolled');
+//   } else {
+//     header.classList.remove('scrolled');
+//   }
+// });
