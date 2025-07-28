@@ -16,7 +16,7 @@
   padding: 95px 31px;
   max-height: 471px;
   height: 100%;
-  max-width: 993px;
+  max-width: 1023px;
   background-color: var(--color-white);
   position: relative;
   border-radius: 35px;
@@ -24,6 +24,7 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  margin: 0 15px;
 }
 
 .popup__text {
@@ -51,8 +52,39 @@
   width: 65px;
   height: 65px;
   cursor: pointer;
+  padding: 0;
 }
 
 .popup.opened {
   scale: 1;
 }
+
+@media screen and (max-width: 950px) {
+  .popup__wrapper {
+    padding: 40px 15px;
+    max-height: 80%;
+  }
+
+  .popup__text {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .popup__wrapper {
+    padding: 50px 11px 41px;
+    border-radius: 35px;
+  }
+  .popup__text {
+   max-height: 100%;
+   font-size: 1.4rem;
+  }
+  .popup__close-btn {
+    top: 20px;
+    right: 13px;
+    width: 41px;
+    height: 41px;
+  }
+}
+
+

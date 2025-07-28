@@ -5,3 +5,9 @@
   align-items: center;
   padding: 125px 0 0 0;
 }
+
+@media screen and (max-width: 950px) {
+  .main {
+    padding-top: 0;
+  }
+}
